@@ -1,0 +1,32 @@
+=== BizFlow POS Installation Instructions ===
+
+Linux Installation:
+------------------
+1. Extract the Linux package:
+   tar -xzf bizflow-pos-linux-1.0.0.tar.gz
+   cd bizflow-pos-linux-1.0.0
+
+2. Run the installer (requires root/sudo):
+   sudo ./linux-installer.sh
+
+3. After installation, you can run the application by:
+   - Using the application menu (search for "BizFlow POS")
+   - Or by typing 'bizflow-pos' in the terminal
+
+Windows Installation:
+--------------------
+1. Extract the Windows package (bizflow-pos-windows-1.0.0.zip)
+2. Double-click 'Start-BizFlowPOS.bat' to run the application
+3. If you get Java errors, make sure you have Java 11 or later installed
+
+System Requirements:
+------------------
+- Java 11 or later
+- At least 2GB RAM
+- At least 200MB free disk space
+
+Troubleshooting:
+---------------
+- If you get 'Java not found' errors, install Java from https://adoptium.net/
+- On Linux, if you get permission errors, try: chmod +x *.sh
+- For other issues, please contact support@bizflow.com
